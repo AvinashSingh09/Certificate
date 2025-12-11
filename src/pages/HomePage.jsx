@@ -19,7 +19,7 @@ function HomePage({ onSelectImage }) {
             </h1>
             <p className="text-gray-400 mb-12 text-lg">Select a photo frame to get started</p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
+            <div className="flex justify-center gap-8 max-w-4xl">
                 {images.map((image) => (
                     <div
                         key={image.id}
